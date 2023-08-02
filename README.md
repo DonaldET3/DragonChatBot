@@ -5,3 +5,5 @@ This is currently primarily intended to be a Discord bot, though compatibility w
 Everyone involved in this project may use a different programming language. Each portion written in a different language will need to use some form of IPC to communicate, such as pipes, sockets, or memory mapped files.
 
 This project might not actually start for a while.
+
+Bot modules will be organized in the language directory corresponding to the primary programming language that the module is implemented in. Each module should have its own subdirectory inside of the language directory.
